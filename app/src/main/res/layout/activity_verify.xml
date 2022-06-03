@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Aldi Nugraha Pratama
+Kelas: IF10K
+NIM: 10119908
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyActivity"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Kembali Isian Data"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Tes"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="32dp"/>
+
+            <TextView
+                android:id="@+id/txt_jnstes"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Terkonfirmasi"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="32dp"/>
+
+            <TextView
+                android:id="@+id/txt_tgl_konfirmasi"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIK"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="32dp"/>
+
+            <TextView
+                android:id="@+id/tx_nik"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Nama"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/tx_nama"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Tanggal Lahir"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <TextView
+                android:id="@+id/tx_tgl_lahir"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Jenis Kelamin"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/tx_jkelamin"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Hubungan Dengan Anda"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/tx_Hubungan"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/lanjut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selanjutnya"/>
+
+            <Button
+                android:id="@+id/ubah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubah"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
