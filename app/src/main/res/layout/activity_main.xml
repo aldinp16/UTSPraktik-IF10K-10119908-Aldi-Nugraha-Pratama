@@ -35,7 +35,7 @@ NIM: 10119908
             android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:background="#FFF9E1">
+            android:background="@drawable/hacky">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
